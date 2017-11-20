@@ -1,7 +1,7 @@
 <?php
 
 //To do : créer un objet PDO
-$connexion = new PDO('mysql:host=localhost;dbname=wikies', 'root', '');
+$connexion = new PDO('mysql:host=localhost;dbname=wikies;charset=utf8;', 'root', '');
 
 function getNotes(){
     global $connexion;
